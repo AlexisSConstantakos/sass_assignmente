@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+* {
+  width: 100%; }
+
+.dan {
+  display: flex;
+  align-content: stretch;
+  justify-content: center; }
+
+.dan .header {
+  font-family: 'Ubuntu', sans-serif; }
+.dan .content {
+  font-family: 'Ubuntu', sans-serif; }
+
+h1 {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-self: center; }
+
+.table {
+  display: inline-block;
+  align-content: right;
+  border-left: thin solid LightGrey; }
+
+.titles {
+  margin: 2%;
+  display: inline-block;
+  position: relative; }
+
+.table .year {
+  text-align: right;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: Grey;
+  padding: 50px 50px 50px 50px; }
+.table .content {
+  text-align: right;
+  font-weight: bold; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+footer .social {
+  display: flex;
+  width: 125px; }
+footer .copy {
+  font-family: 'Josefin Sans', sans-serif;
+  color: Grey; }
+
+/*# sourceMappingURL=main.css.map */
